@@ -1,0 +1,31 @@
+html { scroll-behavior: smooth; }
+body { font-family: 'Roboto', sans-serif; margin: 0; background: #f5f2ed; color: #333; }
+header { background: #1a1a1a; color: #f0d67b; padding: 25px; text-align: center; font-family: 'Playfair Display', serif; letter-spacing: 3px; font-size: 2.2rem; border-bottom: 5px solid #f0d67b; }
+header small { display: block; font-size: 1rem; margin-top: 5px; color: #d1c4a7; }
+nav { display: flex; justify-content: center; gap: 25px; padding: 18px; background: #2b2b2b; }
+nav a { color: #f0d67b; text-decoration: none; font-weight: bold; padding: 5px 10px; border: 2px solid transparent; transition: all 0.3s; }
+nav a:hover { border: 2px solid #f0d67b; border-radius: 10px; }
+main { padding: 40px; display: flex; flex-direction: column; align-items: center; gap: 50px; }
+h2 { font-family: 'Playfair Display', serif; font-size: 2rem; border-bottom: 3px solid #f0d67b; padding-bottom: 8px; margin-bottom: 20px; }
+.classes { display: flex; gap: 25px; flex-wrap: wrap; justify-content: center; }
+.class-card { background: #f0e5d2; padding: 25px; border-radius: 20px; text-align: center; width: 160px; box-shadow: 0 6px 10px rgba(0,0,0,0.25); font-family: 'Playfair Display', serif; border: 2px solid #f0d67b; transition: transform 0.3s, box-shadow 0.3s; }
+.class-card.vip { border-color: #ffd700; box-shadow: 0 0 15px #ffd700; }
+.class-card.expensive { border-color: #c0c0c0; }
+.class-card:hover { transform: translateY(-5px); box-shadow: 0 10px 15px rgba(0,0,0,0.3); }
+.class-card h3 { margin: 0 0 10px 0; color: #1a1a1a; }
+.price { font-weight: bold; color: #1a1a1a; }
+.available-taxis { max-width: 500px; width: 100%; }
+.taxi-item { display: flex; justify-content: space-between; align-items: center; padding: 12px 18px; background: #f9f5ee; border-radius: 12px; margin-bottom: 12px; font-weight: bold; border: 2px solid #f0d67b; transition: 0.3s; }
+.taxi-item.vip { border-color: #ffd700; box-shadow: 0 0 10px #ffd700; }
+.taxi-item.expensive { border-color: #c0c0c0; }
+.taxi-item button { padding: 6px 14px; border: none; border-radius: 8px; background: #1a1a1a; color: #f0d67b; cursor: pointer; font-weight: bold; transition: all 0.3s; }
+.taxi-item button:hover { background: #333; transform: scale(1.05); }
+.taxi-item button:active { transform: scale(0.95); }
+form { display: flex; flex-direction: column; gap: 18px; background: #f0e5d2; padding: 25px; border-radius: 20px; max-width: 400px; width: 100%; border: 2px solid #f0d67b; }
+input, button { padding: 12px; border-radius: 10px; border: 1px solid #333; font-size: 1rem; }
+button { background: #1a1a1a; color: #f0d67b; cursor: pointer; font-weight: bold; transition: all 0.3s; }
+button:hover { background: #333; transform: scale(1.02); }
+button:active { transform: scale(0.98); }
+#userAccount { background: #f0e5d2; padding: 20px; border-radius: 20px; border: 2px solid #f0d67b; max-width: 400px; width: 100%; text-align: center; font-weight: bold; }
+#history { margin-top: 15px; text-align: left; max-height: 200px; overflow-y: auto; padding: 10px; border: 2px solid #f0d67b; border-radius: 15px; background: #f9f5ee; }
+footer { text-align: center; padding: 18px; background: #1a1a1a; color: #d1c4a7; font-size: 0.95rem; border-top: 3px solid #f0d67b; }
